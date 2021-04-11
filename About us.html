@@ -5,11 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hw1</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-    <h1><strong><em>About us page</em></strong></h1>
+    <h1 class="text-red-500 pb-10"><strong><em>About us page</em></strong></h1>
     <ol>
-    <li><a href="http://www.pyaariweddings.co/About-us">Please click here!</a></li>
+    <li class="text-blue-500 underline"><a href="http://www.pyaariweddings.co/About-us">Please click here!</a></li>
+    <li class="pt-5">But contact us down below!</li>
+    </ol>
+<ol>
+<form action="https://www.maps.google.com/" class="pt-10">
+    <li class="pb-5"><label for="name">What is your dream city?</label></li>
+    <input type="text" id="name" name="name" class="border-8 rounded-md">
+    
+    <li><label for="favorite-color">What is your favorite color?</label></li>
+    <input type="text" id="favorite-color" name="favoriteColor" class="border-4 rounded-full">
+    <li class="pt-2 text-blue-500 underline"><button>Submit form!</button></li>
+</form>
 </ol>
 </body>
 </html>
